@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Business Card</string>\
+
+    <string name="full_name">Wan Muhammad Sirajuddin</string>
+    <string name="title">Junior Developer</string>
+    <string name="phone_num">+60 173249080</string>
+    <string name="github">Radixactivetea</string>
+    <string name="email">wsirajddn@gmail.com</string>
+</resources>
