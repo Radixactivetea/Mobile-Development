@@ -47,7 +47,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.affirmations.data.Datasource
 import com.example.affirmations.model.Affirmation
-import com.example.affirmations.ui.theme.AffirmationsTheme
+import com.example.compose.AffirmationsTheme
 
 class MainActivity : ComponentActivity() {
 
@@ -57,8 +57,7 @@ class MainActivity : ComponentActivity() {
             AffirmationsTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
+                    modifier = Modifier.fillMaxSize()
                 ) {
                     AffirmationsApp()
                 }
